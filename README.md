@@ -33,9 +33,11 @@ once, then browse at the repo's Pages URL.
 
 Entries carry open-ended `tags`. Currently tagged:
 
-- **4-day-week** — sites focused on four-day work weeks
-- **employee-owned / cooperative** — sites for employee-owned or cooperative employers
+- **Sector** — climate, sustainability, civic, nonprofit, social-impact, justice, human-rights, responsible-tech, government, data
+- **Region** — nz, uk
+- **Type** — spreadsheet, github-list, social, community
 
+Dedicated facet repos: [4-day-week-job-sites](https://github.com/olitreadwell/4-day-week-job-sites) and [employee-owned-job-sites](https://github.com/olitreadwell/employee-owned-job-sites).
 ## Use the data
 
 - `data/entries/*.yaml` — one file per site, validated against
@@ -57,5 +59,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Adding a site is one small YAML file.
 
 ## Related
 
-- [tech-for-good-job-sites](https://github.com/olitreadwell/tech-for-good-job-sites) — mission-driven job sites
+- [remote-job-sites](https://github.com/olitreadwell/remote-job-sites) — general remote job search sites
+- [4-day-week-job-sites](https://github.com/olitreadwell/4-day-week-job-sites) — four-day work week job sites
+- [employee-owned-job-sites](https://github.com/olitreadwell/employee-owned-job-sites) — employee-owned & cooperative job sites
 - [new-zealand-data](https://github.com/olitreadwell/new-zealand-data) — NZ data & APIs directory

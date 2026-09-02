@@ -2,42 +2,40 @@
 
 Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this file.
 
-**706 entries** — 453 live, 74 bot-blocked, 179 dead.
+**703 entries** — 450 live, 74 bot-blocked, 179 dead.
 
 ## Live
 
 ### job-board
 
-- [alltechishuman.org](https://alltechishuman.org/responsible-tech-job-board)
-- [animaladvocacycareers.org](https://www.animaladvocacycareers.org/job-board)
-- [apply.coop](https://apply.coop/) — tags: employee-owned, cooperative
-- [civictechjobs.codeforamerica.org](https://civictechjobs.codeforamerica.org/)
-- [climatebase.org](https://www.climatebase.org/jobs?p=0&remote=false)
-- [climatebase.org](https://climatebase.org/)
-- [climatechangecareers.com](https://www.climatechangecareers.com/jobs/)
-- [climatejobslist.com](https://www.climatejobslist.com/)
-- [digitalrights.community](https://www.digitalrights.community/job-board)
-- [escapethecity.org](https://www.escapethecity.org/search/jobs)
-- [escapethecity.org](https://www.escapethecity.org/)
-- [idealist.org](https://www.idealist.org/en)
-- [idealist.org](https://www.idealist.org/)
-- [ilpfoundry.us](https://www.ilpfoundry.us/jobs/)
-- [jobs.80000hours.org](https://jobs.80000hours.org/?refinementList%5Btags_location_80k%5D%5B0%5D=Remote%2C+Global&refinementList%5Btags_location_80k%5D%5B1%5D=USA&refinementList%5Btags_role_type%5D%5B0%5D=Software+Engineering)
-- [jobs.all-hands.us](https://jobs.all-hands.us/jobs?filter=eyJqb2JfZnVuY3Rpb25zIjpbIlNvZnR3YXJlIEVuZ2luZWVyaW5nIl0sInNlYXJjaGFibGVfbG9jYXRpb25zIjpbIlJlbW90ZSJdfQ%3D%3D)
-- [jobs.certifiedeo.com](https://jobs.certifiedeo.com/) — tags: employee-owned, cooperative
-- [jobs.climatedraft.org](https://jobs.climatedraft.org/jobs)
+- [alltechishuman.org](https://alltechishuman.org/responsible-tech-job-board) — tags: responsible-tech, human-rights
+- [animaladvocacycareers.org](https://www.animaladvocacycareers.org/job-board) — tags: nonprofit
+- [civictechjobs.codeforamerica.org](https://civictechjobs.codeforamerica.org/) — tags: civic
+- [climatebase.org](https://www.climatebase.org/jobs?p=0&remote=false) — tags: climate
+- [climatebase.org](https://climatebase.org/) — tags: climate
+- [climatechangecareers.com](https://www.climatechangecareers.com/jobs/) — tags: climate
+- [climatejobslist.com](https://www.climatejobslist.com/) — tags: climate, sustainability
+- [digitalrights.community](https://www.digitalrights.community/job-board) — tags: justice, human-rights
+- [escapethecity.org](https://www.escapethecity.org/search/jobs) — tags: nonprofit, uk
+- [escapethecity.org](https://www.escapethecity.org/) — tags: nonprofit, uk
+- [idealist.org](https://www.idealist.org/en) — tags: nonprofit
+- [idealist.org](https://www.idealist.org/) — tags: nonprofit
+- [ilpfoundry.us](https://www.ilpfoundry.us/jobs/) — tags: social-impact
+- [jobs.80000hours.org](https://jobs.80000hours.org/?refinementList%5Btags_location_80k%5D%5B0%5D=Remote%2C+Global&refinementList%5Btags_location_80k%5D%5B1%5D=USA&refinementList%5Btags_role_type%5D%5B0%5D=Software+Engineering) — tags: social-impact
+- [jobs.all-hands.us](https://jobs.all-hands.us/jobs?filter=eyJqb2JfZnVuY3Rpb25zIjpbIlNvZnR3YXJlIEVuZ2luZWVyaW5nIl0sInNlYXJjaGFibGVfbG9jYXRpb25zIjpbIlJlbW90ZSJdfQ%3D%3D) — tags: social-impact
+- [jobs.climatedraft.org](https://jobs.climatedraft.org/jobs) — tags: climate
 - [jobs.ffwd.org](https://jobs.ffwd.org/jobs)
-- [jobs.thebridgework.com](https://jobs.thebridgework.com/)
-- [justicetech.download](https://www.justicetech.download/)
+- [jobs.thebridgework.com](https://jobs.thebridgework.com/) — tags: social-impact
+- [justicetech.download](https://www.justicetech.download/) — tags: justice
 - [linkedin.com](https://www.linkedin.com/jobs/collections/green-jobs/)
-- [progressivedatajobs.org](https://www.progressivedatajobs.org/job-postings/)
-- [rootstockjobs.com](https://rootstockjobs.com/)
+- [progressivedatajobs.org](https://www.progressivedatajobs.org/job-postings/) — tags: justice, data
+- [rootstockjobs.com](https://rootstockjobs.com/) — tags: nonprofit
 - [sdg.careers](https://sdg.careers/)
-- [techjobsforgood.com](https://www.techjobsforgood.com/)
-- [terra.do](https://terra.do/climate-jobs/job-board/)
-- [terra.do](https://terra.do/)
-- [theimpactjob.com](https://theimpactjob.com/)
-- [workingreen.jobs](https://workingreen.jobs/)
+- [techjobsforgood.com](https://www.techjobsforgood.com/) — tags: nonprofit, social-impact
+- [terra.do](https://terra.do/climate-jobs/job-board/) — tags: climate
+- [terra.do](https://terra.do/) — tags: climate
+- [theimpactjob.com](https://theimpactjob.com/) — tags: nonprofit, social-impact
+- [workingreen.jobs](https://workingreen.jobs/) — tags: climate, sustainability
 
 ### company-careers
 
@@ -72,7 +70,7 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [auto-grid.com](https://www.auto-grid.com/careers/)
 - [avocadostore.de](https://www.avocadostore.de/jobs)
 - [avocadostore.de](https://www.avocadostore.de/)
-- [awesome-sustainability-jobs.netlify.app](https://awesome-sustainability-jobs.netlify.app/)
+- [awesome-sustainability-jobs.netlify.app](https://awesome-sustainability-jobs.netlify.app/) — tags: sustainability
 - [baywa-re.com](https://www.baywa-re.com/)
 - [be4energy.com](https://www.be4energy.com/)
 - [belectric.com](https://belectric.com/de/karriere/)
@@ -382,7 +380,7 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [tanso.io](https://www.tanso.io)
 - [taylorhopkinson.com](https://www.taylorhopkinson.com/)
 - [tbd.community](https://www.tbd.community/de/jobs)
-- [tech.usajobs.gov](https://tech.usajobs.gov/Search/Results?cmco=TechToGov&p=1)
+- [tech.usajobs.gov](https://tech.usajobs.gov/Search/Results?cmco=TechToGov&p=1) — tags: government, civic
 - [teqcycle.com](https://www.teqcycle.com)
 - [terraformation.com](https://www.terraformation.com/about/careers)
 - [terraformation.com](https://www.terraformation.com/)
@@ -457,19 +455,18 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 
 ### resource
 
-- [airtable.com](https://airtable.com/shr94eNIRwETYYH4V/tbllb0ep4vRowx2Uj/viwJGUwYMfzsf5qGr)
-- [airtable.com](https://airtable.com/shraPI2t5xhCfYmbc)
-- [docs.google.com](https://docs.google.com/spreadsheets/d/1dFVoF6f9VU5pjaGhyyvQaBN0n6ae-iLCtlvsO1N2jhA/edit)
-- [docs.google.com](https://docs.google.com/spreadsheets/d/1SMKjAgYxG1iAi_G4E3DJik17-EkO8QiTo6obeZCiBAQ/htmlview)
-- [docs.google.com](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit)
-- [github.com](https://github.com/hng/tech-coops) — tags: cooperative
-- [github.com](https://github.com/pogopaule/awesome-sustainability-jobs/blob/main/src/data.yaml)
-- [github.com](https://github.com/pogopaule/awesome-sustainability-jobs/blob/main/src/template.md)
-- [github.com](https://github.com/pogopaule/awesome-sustainability-jobs/blob/main/CONTRIBUTING.md)
-- [github.com](https://github.com/protontypes/open-sustainable-technology)
-- [github.com](https://github.com/topics/tech-for-good)
+- [airtable.com](https://airtable.com/shr94eNIRwETYYH4V/tbllb0ep4vRowx2Uj/viwJGUwYMfzsf5qGr) — tags: spreadsheet
+- [airtable.com](https://airtable.com/shraPI2t5xhCfYmbc) — tags: spreadsheet
+- [docs.google.com](https://docs.google.com/spreadsheets/d/1dFVoF6f9VU5pjaGhyyvQaBN0n6ae-iLCtlvsO1N2jhA/edit) — tags: spreadsheet
+- [docs.google.com](https://docs.google.com/spreadsheets/d/1SMKjAgYxG1iAi_G4E3DJik17-EkO8QiTo6obeZCiBAQ/htmlview) — tags: spreadsheet
+- [docs.google.com](https://docs.google.com/spreadsheets/d/1VpYIEC7MhA_6VVORk5S9CDuccx_tEvFVefeDTilenXQ/edit) — tags: spreadsheet
+- [github.com](https://github.com/pogopaule/awesome-sustainability-jobs/blob/main/src/data.yaml) — tags: github-list
+- [github.com](https://github.com/pogopaule/awesome-sustainability-jobs/blob/main/src/template.md) — tags: github-list
+- [github.com](https://github.com/pogopaule/awesome-sustainability-jobs/blob/main/CONTRIBUTING.md) — tags: github-list
+- [github.com](https://github.com/protontypes/open-sustainable-technology) — tags: github-list
+- [github.com](https://github.com/topics/tech-for-good) — tags: github-list, social-impact
 - [notion.so](https://www.notion.so/Working-at-alcemy-7640f0e4aae1456fa70013b8141ba2b2)
-- [twitter.com](https://twitter.com/opengovjobs)
+- [twitter.com](https://twitter.com/opengovjobs) — tags: social, government
 
 ## Blocked
 
@@ -477,7 +474,7 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 
 - [angel.co](https://angel.co/company/pachama/jobs)
 - [angel.co](https://angel.co/company/sharethemeal-1/jobs)
-- [elgljobs.com](https://elgljobs.com/)
+- [elgljobs.com](https://elgljobs.com/) — tags: civic, government
 - [glassdoor.com](https://www.glassdoor.com/Reviews/Afresh-Technologies-Reviews-E2506321.htm)
 - [glassdoor.com](https://www.glassdoor.com/Reviews/AMP-Reviews-E1754764.htm)
 - [glassdoor.com](https://www.glassdoor.com/Reviews/AMP-Robotics-Reviews-E1754764.htm)
@@ -527,7 +524,7 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [glassdoor.com](https://www.glassdoor.com/Reviews/Watershed-Reviews-E4668328.htm)
 - [glassdoor.com](https://www.glassdoor.com/Reviews/Winnow-Solutions-Reviews-E1857734.htm)
 - [glassdoor.com](https://www.glassdoor.com/Reviews/Xos-Trucks-Reviews-E4643521.htm)
-- [impactopportunity.org](https://impactopportunity.org/jobs/)
+- [impactopportunity.org](https://impactopportunity.org/jobs/) — tags: nonprofit, social-impact
 
 ### company-careers
 
@@ -557,9 +554,9 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 
 ### job-board
 
-- [bwork.com](https://www.bwork.com/candidate/job_search/quick/results?sort_field=post_date&sort_dir=desc)
+- [bwork.com](https://www.bwork.com/candidate/job_search/quick/results?sort_field=post_date&sort_dir=desc) — tags: nonprofit, social-impact
 - [linkedin.com](https://www.linkedin.com/careersite/palmetto)
-- [remoteimpactjobs.org](https://www.remoteimpactjobs.org/)
+- [remoteimpactjobs.org](https://www.remoteimpactjobs.org/) — tags: nonprofit, social-impact
 
 ### company-careers
 
@@ -573,7 +570,7 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [carrypicker.com](https://www.carrypicker.com/)
 - [chargepoint.com](https://www.chargepoint.com/)
 - [circularise.com](https://www.circularise.com/careers-circularise)
-- [climate-tech-vc.pallet.com](https://climate-tech-vc.pallet.com/jobs)
+- [climate-tech-vc.pallet.com](https://climate-tech-vc.pallet.com/jobs) — tags: climate
 - [climatiq.io](https://climatiq.io/jobs/carbon-emission-analyst-remote)
 - [cocuma.cz](https://www.cocuma.cz/company/nano-energies/jobs/)
 - [coolerfuture.com](https://coolerfuture.com/de)
@@ -601,7 +598,7 @@ Generated 2026-09-02 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [greenergetic.de](https://www.greenergetic.de/unternehmen/werde-ein-teil-von-greenergetic)
 - [hyperionsearch.co.uk](https://hyperionsearch.co.uk/latest-jobs/)
 - [impactify.de](https://impactify.de/)
-- [important-jobs.pallet.com](https://important-jobs.pallet.com/jobs)
+- [important-jobs.pallet.com](https://important-jobs.pallet.com/jobs) — tags: social-impact
 - [jobrad.org](https://www.jobrad.org/ueber-uns/karriere.html)
 - [jobs.solarmonkey.nl](https://jobs.solarmonkey.nl/)
 - [jobs.wiferion.com](https://jobs.wiferion.com/de)
