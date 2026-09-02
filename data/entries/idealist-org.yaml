@@ -1,0 +1,7 @@
+name: idealist.org
+url: https://www.idealist.org/
+status: live
+category: job-board
+apply_type: quick
+source: [awesome-job-boards, remote-job-sites]
+checked: '2026-09-02'

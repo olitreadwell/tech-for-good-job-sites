@@ -1,0 +1,7 @@
+name: workingreen.jobs
+url: https://workingreen.jobs/
+status: live
+category: job-board
+apply_type: quick
+source: [trinh-job-boards, user]
+checked: '2026-09-02'

@@ -1,0 +1,7 @@
+name: jobs.ffwd.org
+url: https://jobs.ffwd.org/jobs
+status: live
+category: job-board
+apply_type: quick
+source: [user]
+checked: '2026-09-02'

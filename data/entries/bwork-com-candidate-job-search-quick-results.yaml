@@ -1,0 +1,7 @@
+name: bwork.com
+url: https://www.bwork.com/candidate/job_search/quick/results?sort_field=post_date&sort_dir=desc
+status: dead
+category: job-board
+apply_type: quick
+source: [awesome-sustainability-jobs, user]
+checked: '2026-09-02'

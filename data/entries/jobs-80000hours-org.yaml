@@ -1,0 +1,7 @@
+name: jobs.80000hours.org
+url: https://jobs.80000hours.org/?refinementList%5Btags_location_80k%5D%5B0%5D=Remote%2C+Global&refinementList%5Btags_location_80k%5D%5B1%5D=USA&refinementList%5Btags_role_type%5D%5B0%5D=Software+Engineering
+status: live
+category: job-board
+apply_type: quick
+source: [awesome-sustainability-jobs, user]
+checked: '2026-09-02'

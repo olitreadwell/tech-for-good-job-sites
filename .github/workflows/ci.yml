@@ -1,0 +1,42 @@
+name: CI
+
+# Validates the data and checks the site still builds on every pull request
+# and push to the default branches.
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate data and build site
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Validate entries
+        run: python3 scripts/validate.py
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Build site
+        run: python3 scripts/build.py
