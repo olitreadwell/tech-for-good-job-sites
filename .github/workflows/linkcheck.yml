@@ -7,7 +7,7 @@ name: Weekly link check
 
 on:
   schedule:
-    # Sundays 19:00 UTC — Monday morning in New Zealand.
+    # Sundays 19:00 UTC: Monday morning in New Zealand.
     - cron: "0 19 * * 0"
   workflow_dispatch:
 
@@ -66,7 +66,7 @@ jobs:
           {
             echo "The weekly link check found one or more dead links in the live entries."
             echo ""
-            echo "Bot-blocked responses (403 / 429) are not counted here — only 404s, DNS failures, and refused connections."
+            echo "Bot-blocked responses (403 / 429) are not counted here: only 404s, DNS failures, and refused connections."
             echo ""
             echo "Reproduce locally:"
             echo ""
@@ -84,7 +84,7 @@ jobs:
           existing=$(gh issue list --label link-check --state open --json number -q '.[0].number' 2>/dev/null || true)
           if [ -n "${existing:-}" ]; then
             gh issue edit "$existing" --body-file issue-body.md
-            gh issue comment "$existing" --body "Re-checked on $(date -u +%Y-%m-%d) — dead links still present. Report in the issue body above (run ${{ github.run_id }})."
+            gh issue comment "$existing" --body "Re-checked on $(date -u +%Y-%m-%d): dead links still present. Report in the issue body above (run ${{ github.run_id }})."
           else
             gh issue create \
               --title "Dead links found in live entries" \
@@ -102,6 +102,7 @@ jobs:
           fi
           existing=$(gh issue list --label link-check --state open --json number -q '.[0].number' 2>/dev/null || true)
           if [ -n "${existing:-}" ]; then
-            gh issue comment "$existing" --body "Link check passed on $(date -u +%Y-%m-%d) — no dead links remain. Closing automatically."
+            gh issue comment "$existing" --body "Link check passed on $(date -u +%Y-%m-%d): no dead links remain. Closing automatically."
             gh issue close "$existing"
           fi
+
