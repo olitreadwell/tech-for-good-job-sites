@@ -25,9 +25,10 @@ around it.
 
 1. Add or edit `data/entries/<slug>.yaml`.
 2. Run `python3 scripts/validate.py`: must pass.
-3. Run `python3 scripts/check.py`: confirms live URLs still resolve.
-4. Run `python3 scripts/build.py`: regenerates `GUIDE.md` and `site/`.
-5. Commit data + regenerated outputs together.
+3. Run `python3 scripts/dedupe.py`: prints entries that repeat a host; `--apply` deletes them. One entry per host.
+4. Run `python3 scripts/check.py`: confirms live URLs still resolve.
+5. Run `python3 scripts/build.py`: regenerates `GUIDE.md` and `site/`.
+6. Commit data + regenerated outputs together.
 
 ## Naming
 

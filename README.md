@@ -16,9 +16,9 @@ Consolidated and deduplicated from popular community lists, then checked with
 
 Current state (checked 2026-09-02):
 
-- **450 live**: reachable and returning 2xx/3xx
-- **74 bot-blocked**: site is up but blocks automated checks (403/429)
-- **179 dead or unreachable**: 404, 5xx, DNS/TLS errors, or timeout
+- **326 live**: reachable and returning 2xx/3xx
+- **18 bot-blocked**: site is up but blocks automated checks (403/429)
+- **42 dead or unreachable**: 404, 5xx, DNS/TLS errors, or timeout
 
 ## Browse it
 

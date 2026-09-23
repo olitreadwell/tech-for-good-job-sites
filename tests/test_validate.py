@@ -1,6 +1,7 @@
 """Data integrity tests. Run with: pytest"""
 
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
@@ -46,3 +47,9 @@ def test_urls_unique():
 def test_urls_are_http():
     for e in load_entries():
         assert e["url"].startswith(("http://", "https://"))
+
+def test_one_entry_per_host():
+    hosts = [
+        urlparse(e["url"]).netloc.lower().removeprefix("www.") for e in load_entries()
+    ]
+    assert len(hosts) == len(set(hosts))
