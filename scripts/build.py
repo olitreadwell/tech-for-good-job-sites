@@ -52,7 +52,7 @@ def build_guide(entries: list[dict]) -> str:
         "",
     ]
     counts = {s: sum(1 for e in entries if e["status"] == s) for s in STATUS_ORDER}
-    lines.append(f"**{len(entries)} entries** — "
+    lines.append(f"**{len(entries)} entries**: "
                  f"{counts['live']} live, {counts['blocked']} bot-blocked, {counts['dead']} dead.")
     lines.append("")
     for status in STATUS_ORDER:
@@ -68,7 +68,7 @@ def build_guide(entries: list[dict]) -> str:
             lines.append(f"### {cat}")
             lines.append("")
             for e in sorted(cat_entries, key=lambda x: x["name"]):
-                tags = f" — tags: {', '.join(e['tags'])}" if e.get("tags") else ""
+                tags = f" (tags: {', '.join(e['tags'])})" if e.get("tags") else ""
                 lines.append(f"- [{e['name']}]({e['url']}){tags}")
             lines.append("")
     return "\n".join(lines)
@@ -108,7 +108,7 @@ tr[data-status="dead"] {{ opacity: .5; }}
 </head>
 <body>
 <h1>Job site directory</h1>
-<p>{len(entries)} entries — generated {date.today().isoformat()}</p>
+<p>{len(entries)} entries, generated {date.today().isoformat()}</p>
 <input id="q" placeholder="Search name or URL…" oninput="filter()">
 <select id="status" onchange="filter()">
 <option value="">all statuses</option>

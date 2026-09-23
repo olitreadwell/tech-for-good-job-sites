@@ -24,9 +24,9 @@ around it.
 ## Workflow
 
 1. Add or edit `data/entries/<slug>.yaml`.
-2. Run `python3 scripts/validate.py` — must pass.
-3. Run `python3 scripts/check.py` — confirms live URLs still resolve.
-4. Run `python3 scripts/build.py` — regenerates `GUIDE.md` and `site/`.
+2. Run `python3 scripts/validate.py`: must pass.
+3. Run `python3 scripts/check.py`: confirms live URLs still resolve.
+4. Run `python3 scripts/build.py`: regenerates `GUIDE.md` and `site/`.
 5. Commit data + regenerated outputs together.
 
 ## Naming
