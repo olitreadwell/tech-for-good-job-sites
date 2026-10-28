@@ -1,8 +1,8 @@
 # Directory
 
-Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this file.
+Generated 2026-10-29 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this file.
 
-**386 entries**: 326 live, 18 bot-blocked, 42 dead.
+**386 entries**: 312 live, 19 bot-blocked, 55 dead.
 
 ## Live
 
@@ -20,9 +20,7 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [ilpfoundry.us](https://www.ilpfoundry.us/jobs/) (tags: social-impact)
 - [jobs.80000hours.org](https://jobs.80000hours.org/?refinementList%5Btags_location_80k%5D%5B0%5D=Remote%2C+Global&refinementList%5Btags_location_80k%5D%5B1%5D=USA&refinementList%5Btags_role_type%5D%5B0%5D=Software+Engineering) (tags: social-impact)
 - [jobs.all-hands.us](https://jobs.all-hands.us/jobs?filter=eyJqb2JfZnVuY3Rpb25zIjpbIlNvZnR3YXJlIEVuZ2luZWVyaW5nIl0sInNlYXJjaGFibGVfbG9jYXRpb25zIjpbIlJlbW90ZSJdfQ%3D%3D) (tags: social-impact)
-- [jobs.climatedraft.org](https://jobs.climatedraft.org/jobs) (tags: climate)
 - [jobs.ffwd.org](https://jobs.ffwd.org/jobs)
-- [jobs.thebridgework.com](https://jobs.thebridgework.com/) (tags: social-impact)
 - [justicetech.download](https://www.justicetech.download/) (tags: justice)
 - [linkedin.com](https://www.linkedin.com/jobs/collections/green-jobs/)
 - [progressivedatajobs.org](https://www.progressivedatajobs.org/job-postings/) (tags: justice, data)
@@ -75,18 +73,15 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [careers.ovo.com](https://careers.ovo.com/opportunities)
 - [careers.smartrecruiters.com](https://careers.smartrecruiters.com/THECLIMATECHOICEUGhaftungsbeschrnkt)
 - [careers.vestas.com](https://careers.vestas.com/search/?q=Software)
-- [carnextdoor.com.au](https://www.carnextdoor.com.au)
 - [centre.humdata.org](https://centre.humdata.org/data-fellows/)
 - [chargepoint.com](https://www.chargepoint.com/about/opportunities/)
 - [circular.fashion](https://circular.fashion/)
 - [circularise.com](https://www.circularise.com/)
 - [cleanpower.com](https://www.cleanpower.com/)
 - [clearvue.business](https://clearvue.business/careers/)
-- [climate.careers](https://climate.careers)
 - [climatechangejobs.co.uk](https://climatechangejobs.co.uk/)
 - [climatepartner.com](https://www.climatepartner.com)
 - [climatepeople.com](https://www.climatepeople.com/)
-- [climaterobotics.com](https://www.climaterobotics.com)
 - [climatetechcareers.com](https://www.climatetechcareers.com/)
 - [climatetechlist.com](http://climatetechlist.com/)
 - [climateview.global](https://www.climateview.global/)
@@ -99,12 +94,10 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [culdesac.com](https://culdesac.com/careers)
 - [dandelionenergy.com](https://dandelionenergy.com/jobs)
 - [deltanalytics.org](http://www.deltanalytics.org/)
-- [descarteslabs.com](https://descarteslabs.com/open-jobs.html)
 - [designwerk.com](https://www.designwerk.com/)
 - [devenv.sh](https://devenv.sh/)
 - [digsilent.de](https://www.digsilent.de/de/home.html)
 - [door2door.io](https://door2door.io/)
-- [drehpunkt.de](https://drehpunkt.de/jobs/)
 - [drumrole.co](https://www.drumrole.co/)
 - [dsi.ubc.ca](https://dsi.ubc.ca/data-science-social-good)
 - [ducky.eco](https://www.ducky.eco/)
@@ -144,7 +137,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [fairmondo.de](https://www.fairmondo.de)
 - [fdleurope.org](https://fdleurope.org/fdl-europe-2020)
 - [fenecon.de](https://fenecon.de)
-- [fenntec.de](https://www.fenntec.de/)
 - [fleetster.de](https://www.fleetster.de)
 - [formenergy.com](https://formenergy.com/)
 - [free2move.com](https://www.free2move.com)
@@ -157,7 +149,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [goodjobs.eu](https://goodjobs.eu/de)
 - [green-coding.berlin](https://www.green-coding.berlin)
 - [greendelta.com](https://www.greendelta.com)
-- [greenergetic.de](https://www.greenergetic.de)
 - [greenjobs.de](https://www.greenjobs.de/index.html)
 - [greenjobs.nl](https://greenjobs.nl/)
 - [greenpeace-energy.de](https://www.greenpeace-energy.de)
@@ -191,7 +182,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [klimametrix.join.com](https://klimametrix.join.com/)
 - [kumpan-electric.com](https://www.kumpan-electric.com/karriere/)
 - [leap.energy](https://www.leap.energy/careers/)
-- [leasingforgood.com](https://www.leasingforgood.com)
 - [lichtblick.de](https://www.lichtblick.de)
 - [livingpackets.com](https://livingpackets.com/jobs)
 - [lumenaza.de](https://www.lumenaza.de/)
@@ -235,7 +225,7 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [packetizedenergy.com](https://packetizedenergy.com/careers/)
 - [pad.disroot.org](https://pad.disroot.org/p/awesome-sustainability-jobs)
 - [palmetto.com](https://palmetto.com/)
-- [passiv.de](https://passiv.de/)
+- [passivehouse.com](https://passivehouse.com/en/home/)
 - [patch.io](https://www.patch.io/careers)
 - [pfdrive.com](https://pfdrive.com/)
 - [planetly.com](https://www.planetly.com/)
@@ -244,7 +234,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [projecttogether.org](https://projecttogether.org/)
 - [propagateag.com](https://propagateag.com/)
 - [pvcomplete.com](https://pvcomplete.com/careers/)
-- [qed.de](https://qed.de/career/)
 - [quantumscape.com](https://www.quantumscape.com/)
 - [radicalengineers.com](http://radicalengineers.com/volunteer_positions.html)
 - [raptormaps.com](https://raptormaps.com/careers/)
@@ -281,7 +270,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [sylvera.io](https://www.sylvera.io)
 - [sympower.net](https://sympower.net/)
 - [tado.com](https://www.tado.com/)
-- [tanso.io](https://www.tanso.io/careers/)
 - [taylorhopkinson.com](https://www.taylorhopkinson.com/)
 - [tbd.community](https://www.tbd.community/de/jobs)
 - [tech.usajobs.gov](https://tech.usajobs.gov/Search/Results?cmco=TechToGov&p=1) (tags: government, civic)
@@ -296,7 +284,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [triodos.com](https://www.triodos.com/careers)
 - [turing.ac.uk](https://www.turing.ac.uk/collaborate-turing/data-science-social-good)
 - [ubitricity.com](https://www.ubitricity.com)
-- [unown-fashion.com](https://unown-fashion.com)
 - [utilityapi.com](https://utilityapi.com/jobs)
 - [valentin-software.com](https://valentin-software.com/)
 - [vanmoof.com](https://www.vanmoof.com/careers)
@@ -333,7 +320,6 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 
 - [apply.workable.com](https://apply.workable.com/sylvera/)
 - [boards.greenhouse.io](https://boards.greenhouse.io/afresh)
-- [jobs.ashbyhq.com](https://jobs.ashbyhq.com/propagate)
 - [jobs.lever.co](https://jobs.lever.co/omnidian)
 
 ### resource
@@ -357,6 +343,7 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 
 - [dz4.jobs.personio.de](https://dz4.jobs.personio.de/)
 - [elli.jobs.personio.de](https://elli.jobs.personio.de/)
+- [fenntec.de](https://www.fenntec.de/)
 - [glassdoor.co.uk](https://www.glassdoor.co.uk/Reviews/Allplants-Reviews-E2958180.htm)
 - [jobs.baywa-re.com](https://jobs.baywa-re.com/job-offers.html)
 - [mila.quebec](https://mila.quebec/en/ai-society/)
@@ -375,6 +362,8 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 ### job-board
 
 - [bwork.com](https://www.bwork.com/candidate/job_search/quick/results?sort_field=post_date&sort_dir=desc) (tags: nonprofit, social-impact)
+- [jobs.climatedraft.org](https://jobs.climatedraft.org/jobs) (tags: climate)
+- [jobs.thebridgework.com](https://jobs.thebridgework.com/) (tags: social-impact)
 - [remoteimpactjobs.org](https://www.remoteimpactjobs.org/) (tags: nonprofit, social-impact)
 
 ### company-careers
@@ -383,10 +372,15 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [career.climateview.global](https://career.climateview.global/)
 - [careers.ducky.eco](https://careers.ducky.eco/jobs)
 - [careers.orbital-systems.com](https://careers.orbital-systems.com/)
+- [carnextdoor.com.au](https://www.carnextdoor.com.au)
 - [carrypicker.com](https://www.carrypicker.com/jobs)
 - [climate-tech-vc.pallet.com](https://climate-tech-vc.pallet.com/jobs) (tags: climate)
+- [climate.careers](https://climate.careers)
+- [climaterobotics.com](https://www.climaterobotics.com)
 - [cocuma.cz](https://www.cocuma.cz/company/nano-energies/jobs/)
 - [coolerfuture.com](https://coolerfuture.com/de)
+- [descarteslabs.com](https://descarteslabs.com/open-jobs.html)
+- [drehpunkt.de](https://drehpunkt.de/jobs/)
 - [droneseed.co](https://www.droneseed.co/jobs/)
 - [dssgfellowship.org](http://www.dssgfellowship.org/)
 - [dz-4.de](https://www.dz-4.de/)
@@ -396,6 +390,7 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [energy2market.io](https://www.energy2market.io/)
 - [enyway.softgarden.io](https://enyway.softgarden.io/de/vacancies)
 - [geli.net](https://geli.net/careers/)
+- [greenergetic.de](https://www.greenergetic.de)
 - [hyperionsearch.co.uk](https://hyperionsearch.co.uk/latest-jobs/)
 - [impactify.de](https://impactify.de/)
 - [important-jobs.pallet.com](https://important-jobs.pallet.com/jobs) (tags: social-impact)
@@ -403,6 +398,7 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [jobs.wiferion.com](https://jobs.wiferion.com/de)
 - [karriere.grueneerde.com](https://karriere.grueneerde.com/jobs/)
 - [kununu.com](https://www.kununu.com/)
+- [leasingforgood.com](https://www.leasingforgood.com)
 - [lifteh2.com](https://www.lifteh2.com/careers)
 - [lune.crew.work](https://lune.crew.work/jobs)
 - [motivps.com](https://www.motivps.com/careers/)
@@ -411,11 +407,18 @@ Generated 2026-09-23 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this
 - [opusonesolutions.com](https://www.opusonesolutions.com/careers/)
 - [plugintheworld.com](https://plugintheworld.com/careers/)
 - [projecttogether.join.com](https://projecttogether.join.com/)
+- [qed.de](https://qed.de/career/)
 - [recharge.ac](https://www.recharge.ac/careers/)
 - [sapient.industries](https://www.sapient.industries/careers/)
 - [senec-jobs.personio.de](https://senec-jobs.personio.de/)
 - [stem.silkroad.com](https://stem.silkroad.com/)
 - [sunvigo.de](https://www.sunvigo.de/)
+- [tanso.io](https://www.tanso.io/careers/)
+- [unown-fashion.com](https://unown-fashion.com)
 - [vulcan.com](https://www.vulcan.com/areas-of-practice/technology-science/key-initiatives/machine-learning-center-for-impact)
 - [wundercapital.com](https://www.wundercapital.com/hustle)
 - [www1.fenecon.de](https://www1.fenecon.de/karriere/)
+
+### ats
+
+- [jobs.ashbyhq.com](https://jobs.ashbyhq.com/propagate)

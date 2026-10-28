@@ -1,8 +1,8 @@
 name: jobs.thebridgework.com
 url: https://jobs.thebridgework.com/
-status: live
+status: dead
 category: job-board
 apply_type: quick
 source: [user]
-checked: '2026-09-02'
+checked: '2026-10-29'
 tags: [social-impact]
