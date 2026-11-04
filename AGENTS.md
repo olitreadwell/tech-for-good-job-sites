@@ -1,5 +1,12 @@
 # Agent instructions
 
+<!-- coding-standards:begin -->
+Project coding rules: `CODING_STANDARDS.md`. Global baseline:
+`~/.agents/standards/CODING_STANDARDS.md`. Read both before changing
+behaviour.
+<!-- coding-standards:end -->
+
+
 This repo is a data directory. The data is the product; the code is tooling
 around it.
 
