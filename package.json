@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "node scripts/setup.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:a11y": "playwright test a11y",
+    "perf": "pnpm dlx @lhci/cli@latest autorun",
+    "smoke": "bash scripts/smoke.sh",
+    "check:links": "node scripts/check-internal-links.mjs",
+    "check:external-links": "node scripts/check-external-links.mjs",
+    "llms:generate": "node scripts/generate-llms-txt.mjs",
+    "llms:check": "node scripts/generate-llms-txt.mjs --check",
+    "evals": "node evals/run-evals.mjs",
+    "audit": "pnpm audit",
+    "test:setup": "node --test scripts/setup.test.mjs",
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run test:coverage && npm run test:setup && npm run build && npm run smoke && npm run test:e2e && npm run check:links && npm run check:external-links && npm run llms:check"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "packageManager": "pnpm@10.33.0"
+}
