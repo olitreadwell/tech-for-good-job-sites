@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 // Pulls template-owned files into this repo so quality gates and docs stay
 // in sync without touching app code. Policies live in template-manifest.json
-// (in the TEMPLATE repo, so they can evolve with the template).
-//
+// in the template repo, so they can evolve with the template.
+
 // Usage:
-//   node scripts/sync-from-template.mjs                # dry-run report
-//   node scripts/sync-from-template.mjs --apply        # write + commit
-//   node scripts/sync-from-template.mjs --apply --push # commit + push + PR
-//   node scripts/sync-from-template.mjs --repo ../x    # target another repo
+//   node scripts/sync-from-template.mjs: dry-run report.
+//   node scripts/sync-from-template.mjs --apply: write and commit.
+//   node scripts/sync-from-template.mjs --apply --push: commit, push, and open a pull request.
+//   node scripts/sync-from-template.mjs --repo ../x: target another repo.
 import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { mkdir, mkdtemp, readFile, writeFile, copyFile, readdir, rm } from 'node:fs/promises';
@@ -53,9 +53,9 @@ function readJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
 }
 
-// A manifest entry is either a path string or { path, if }. The `if` value
-// is a top-level glob (e.g. "package.json", "next.config.*") that must match
-// something in the target repo for the file to be copied.
+// A manifest entry is either a path string or { path, if }.
+// The `if` value is a top-level glob, such as "package.json" or "next.config.*".
+// It must match something in the target repo for the file to be copied.
 function entryPath(entry) {
   return typeof entry === 'string' ? entry : entry.path;
 }
@@ -98,12 +98,9 @@ async function listFilesRecursive(rootDir, prefix = '') {
 
 /**
  * Expand a policy list into one entry per file. A path ending in `/` means the
- * whole directory, so a new skill, eval, or library folder is one line in the
- * manifest instead of one line per file.
+ * whole directory, so a new folder is one line in the manifest.
  *
- * @param policies - Entries from the manifest, path strings or { path, if }
- * @param templateDir - Root of the template clone
- * @returns Flat list of { path, condition } entries
+ * Entries come from the manifest, and templateDir is the root of the clone.
  */
 async function expandPolicyEntries(policies, templateDir) {
   const expanded = [];
@@ -191,8 +188,8 @@ async function main() {
       }
       const merged = structuredClone(localPkg);
       merged.scripts = { ...tmplPkg.scripts, ...(localPkg.scripts ?? {}) };
-      // Don't force the husky prepare hook onto repos without a husky
-      // dependency (older apps and monorepos manage hooks differently).
+      // Do not force the husky prepare hook onto repos without a husky
+      // dependency. Older apps and monorepos manage hooks differently.
       const hasHuskyDep = localPkg.dependencies?.husky ?? localPkg.devDependencies?.husky;
       if (!hasHuskyDep) {
         delete merged.scripts.prepare;
@@ -202,7 +199,7 @@ async function main() {
       merged.dependencies = localPkg.dependencies ?? {};
       // Tooling stays local too: template devDeps (vitest 4, playwright, …)
       // can conflict with a repo's pinned majors (ERESOLVE). A sync must
-      // never break `npm install`; repos adopt tooling upgrades by choice.
+      // never break `npm install`. Repos adopt tooling upgrades by choice.
       merged.devDependencies = localPkg.devDependencies ?? {};
       merged.packageManager = localPkg.packageManager ?? tmplPkg.packageManager;
       if (JSON.stringify(merged) !== JSON.stringify(localPkg)) {
@@ -228,7 +225,7 @@ async function main() {
     try {
       run(['git', 'branch', '-D', branch]);
     } catch {
-      // Branch does not exist locally yet; nothing to delete.
+      // Branch does not exist locally yet. Nothing to delete.
     }
     run(['git', 'checkout', '-q', '-b', branch]);
     run(['git', 'add', '-A']);

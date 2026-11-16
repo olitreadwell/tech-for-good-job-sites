@@ -1,7 +1,7 @@
 name: CI
 
-# Validates the data and checks the site still builds on every pull request
-# and push to the default branches.
+# Validates the data on every pull request.
+# Checks that the site still builds on every push to the default branches.
 
 on:
   pull_request:

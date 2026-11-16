@@ -1,6 +1,6 @@
-# AI features
+# Artificial intelligence features
 
-The template ships an AI seam, so a new repo does not have to invent one. It
+The template ships an artificial intelligence seam, so a new repo does not have to invent one. It
 is an OpenAI-compatible client plus the four things every model call needs
 around it: a cost cap, a redaction pass, an output contract, and an eval.
 
@@ -12,7 +12,7 @@ keeps working. A feature added on top of this seam is opt-in by construction.
 
 | Path | What it does |
 | --- | --- |
-| `src/lib/ai/aiConfig.ts` | Reads `AI_*` from the environment; throws when the key is missing |
+| `src/lib/ai/aiConfig.ts` | Reads `AI_*` from the environment. Throws when the key is missing |
 | `src/lib/ai/aiClient.ts` | `generateText`, `generateObject`, `streamText` over `POST {baseUrl}/chat/completions` |
 | `src/lib/ai/aiUsage.ts` | Turns token counts into an estimated cost, and keeps a ledger |
 | `src/lib/ai/aiGuard.ts` | Redacts personal data, fences untrusted text, finds injection signals, enforces the cost cap |
@@ -35,13 +35,13 @@ change to `AI_BASE_URL` and `AI_MODEL`, not a change to your code.
 4. **A prompt change ships with an eval.** If you change the instructions,
    `pnpm run evals` has to still pass, or the change is a regression.
 
-## Adding an AI feature
+## Adding an artificial intelligence feature
 
 1. Define the prompt in `src/lib/ai/aiPrompt.ts` style, with an id and a
    version. Keep prompts in `src/server/`, out of route files, so the
    fingerprint has something stable to hash.
 2. Wrap third-party text with `fenceUntrustedContent(label, text)`, and run
-   `findPromptInjectionSignals(text)` over it. Log the signals; do not trust
+   `findPromptInjectionSignals(text)` over it. Log the signals. Do not trust
    the text.
 3. Call `createAiClient()` and use `generateObject` with a `zod` schema when
    the answer feeds the app. `generateText` is for prose a human reads.
@@ -71,11 +71,11 @@ unknown model shows up as unpriced in the ledger instead of silently zero.
 
 ## What is deliberately not here
 
-- No vendor SDK. A template that ships one picks a winner for every project
+- No vendor software development kit. A template that ships one picks a winner for every project
   built from it.
-- No agent framework. A loop over tools is thirty lines; a framework is a
+- No agent framework. A loop over tools is thirty lines. A framework is a
   dependency that outlives the reason it was added.
 - No vector store. Retrieval belongs to the project that has documents, and
   the template has none.
 - No hosted eval service. `evals/run-evals.mjs` writes a JSON report you can
-  commit, diff, and read in CI without an account.
+  commit, diff, and read in automated checks without an account.

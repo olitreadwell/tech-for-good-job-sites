@@ -8,7 +8,7 @@ so the quality gates and docs never drift. It never touches app code.
 Policies live in `template-manifest.json` (in the template repo, so they can
 evolve with the template):
 
-- `copy`: replaced verbatim: lint/format/CI configs, a11y + audit docs,
+- `copy`: replaced verbatim: lint, format, and automated check configs, a11y + audit docs,
   issue templates, security checks.
 - `copyIfAbsent`: added only when missing: `AGENTS.md`, `CLAUDE.md`,
   `.nvmrc`, `.env.example`, contact/FAQ docs, the weekly sync workflow.
@@ -24,7 +24,7 @@ evolve with the template):
 ```bash
 node scripts/sync-from-template.mjs            # dry-run: what would change
 node scripts/sync-from-template.mjs --apply    # write + commit on chore/template-sync
-node scripts/sync-from-template.mjs --apply --push  # + push + open a PR
+node scripts/sync-from-template.mjs --apply --push  # push and open a pull request
 node scripts/sync-from-template.mjs --repo ../my-repo --apply --push
 ```
 
@@ -36,19 +36,19 @@ uncommitted.
 
 ## Automated weekly sync
 
-`.github/workflows/template-sync.yml` runs weekly (Monday 03:00 UTC) and on
-demand (`workflow_dispatch`). It opens a PR named "chore: sync template
-files" when anything changed. To let the workflow clone the (private)
-template, add a PAT with repo read access as `TEMPLATE_SYNC_TOKEN`; without
-it the workflow uses `GITHUB_TOKEN` and only works for public templates.
+`.github/workflows/template-sync.yml` runs weekly at Monday 03:00 universal time.
+It also runs on demand (`workflow_dispatch`).
+
+It opens a pull request named "chore: sync template files" when anything changed.
+To let the workflow clone the private template, add a personal access token with repo read access as `TEMPLATE_SYNC_TOKEN`. Without it the workflow uses `GITHUB_TOKEN` and only works for public templates.
 
 ## Adopting on an existing repo
 
 1. `gh repo clone <repo>` and run the dry-run above.
 2. Run with `--apply --push`. This adds the sync script, manifest,
-   workflow, and configs, and opens the first PR.
+   workflow, and configs, and opens the first pull request.
 3. After merge, the repo is on the weekly cadence.
 
-Run `pnpm install` after a merge that touched `package.json` (the PR
+Run `pnpm install` after a merge that touched `package.json` (the pull request
 includes `pnpm-lock.yaml` updates only if the lockfile policy allows it, so
 regenerate locally and commit when required).

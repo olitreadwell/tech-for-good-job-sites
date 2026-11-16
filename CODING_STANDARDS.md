@@ -38,16 +38,16 @@ adds a stricter rule. Read `AGENTS.md` for layout and scope.
 - Test files sit next to their source and are named after it.
 - Comments explain why, directly above the code they explain.
 
-## PR browser evidence
+## Pull request browser evidence
 
-Trigger: a PR diff changes anything a user clicks, types into, or waits
+Trigger: a pull request diff changes anything a user clicks, types into, or waits
 for.
 
 - Drive the changed flow in a real browser with Playwright, on the final
   code.
 - Record one continuous run of the full flow, start to finish.
-- Convert it to a GIF under 10 MB so GitHub renders it inline.
-- Add it to an `## Evidence` section in the PR description.
+- Convert it to a GIF under 10 megabytes so GitHub renders it inline.
+- Add it to an `## Evidence` section in the pull request description.
 - If a step cannot be verified, write `Unverified: <reason>` there.
 - No interactive surface means no recording. Write
   `no browser evidence: <reason>` in the Evidence section.

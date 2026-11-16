@@ -4,7 +4,7 @@ Last reviewed: 2026-10-02 by @olitreadwell
 
 This file is the quality bar for this repo. It is the contract a change is
 measured against, and it is not edited to make a failing change pass.
-`AGENTS.md` points here; read it before writing code.
+`AGENTS.md` points here. Read it before writing code.
 
 ## Floor (always enforced, no setup required)
 
@@ -39,7 +39,7 @@ measured against, and it is not edited to make a failing change pass.
 
 ## Measured, not yet enforced
 
-Recorded on 2026-10-02. These numbers may improve; they must not fall.
+Recorded on 2026-10-02. These numbers may improve. They must not fall.
 
 | Metric | Today | Direction |
 | --- | --- | --- |

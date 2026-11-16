@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build GUIDE.md and a static searchable site from data/entries/.
+"""Build the guide and a static searchable site from data/entries/.
 
 Outputs:
-    GUIDE.md          - full directory grouped by status and category
+    `GUIDE.md`          - full directory grouped by status and category
     site/index.html   - searchable, filterable single-page site
     site/data.json    - machine-readable copy of the data
     site/data.csv     - flattened copy of the data

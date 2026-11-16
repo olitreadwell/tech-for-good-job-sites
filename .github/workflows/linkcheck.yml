@@ -1,13 +1,14 @@
 name: Weekly link check
 
-# Checks every live entry once a week with lychee. If it finds genuinely dead
-# links (404, DNS failure, refused connection), it opens a single tracking
-# issue and keeps it updated. Bot-blocked links (403 / 429) are NOT treated as
-# failures. When the links recover, the issue is closed automatically.
+# Checks every live entry once a week with lychee.
+# A genuine dead link is a 404, a name lookup failure, or a refused connection.
+# The check opens one tracking issue and keeps it updated.
+# Bot-blocked links (403 / 429) are not treated as failures.
+# When the links recover, the issue is closed automatically.
 
 on:
   schedule:
-    # Sundays 19:00 UTC: Monday morning in New Zealand.
+    # Sundays 19:00 universal time: Monday morning in New Zealand.
     - cron: "0 19 * * 0"
   workflow_dispatch:
 
@@ -66,7 +67,7 @@ jobs:
           {
             echo "The weekly link check found one or more dead links in the live entries."
             echo ""
-            echo "Bot-blocked responses (403 / 429) are not counted here: only 404s, DNS failures, and refused connections."
+            echo "Bot-blocked responses (403 / 429) are not counted here: only 404s, name lookup failures, and refused connections."
             echo ""
             echo "Reproduce locally:"
             echo ""

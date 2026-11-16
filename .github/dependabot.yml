@@ -1,6 +1,6 @@
-# Grouped so a normal week produces one PR per upgrade class instead of ten.
-# Majors stay ungrouped and unmerged: scripts/dependabot-auto-merge.mjs only
-# enables auto-merge for patch and minor bumps that are old enough to trust.
+# Grouped so a normal week produces one pull request per upgrade class.
+# Majors stay ungrouped and unmerged. The auto-merge script only enables
+# auto-merge for patch and minor bumps that are old enough to trust.
 version: 2
 updates:
   - package-ecosystem: 'pip'

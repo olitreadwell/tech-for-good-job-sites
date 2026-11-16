@@ -1,9 +1,11 @@
 name: Deploy Pages site
 
-# Builds a static site from data/entries/ with scripts/build.py and deploys
-# it to GitHub Pages. This runs only once Pages is enabled for the repository
-# (Settings → Pages → Build and deployment → Source: GitHub Actions), which is
-# an account-level step the repo owner must do once.
+# Builds a static site from data/entries/ with scripts/build.py.
+# It deploys that site to GitHub Pages.
+
+# The workflow runs only after Pages is enabled for the repository.
+# Enable it under Settings, then Pages, then Build and deployment.
+# Choose GitHub Actions as the source. The repo owner must do this once.
 
 on:
   push:
@@ -14,7 +16,7 @@ on:
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
-# Allow one concurrent deployment; let an in-progress run finish.
+# Allow one concurrent deployment. Let an in-progress run finish.
 concurrency:
   group: pages
   cancel-in-progress: false

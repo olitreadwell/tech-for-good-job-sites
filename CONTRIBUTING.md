@@ -4,7 +4,7 @@ Thanks for helping keep this directory alive. Two ways to contribute:
 
 ## Add a site
 
-1. Check it's not already in `data/entries/` (search by host).
+1. Check it is not already in `data/entries/` (search by host).
 2. Create `data/entries/<slug>.yaml`:
 
 ```yaml
@@ -26,7 +26,7 @@ python3 scripts/check.py
 python3 scripts/build.py
 ```
 
-4. Open a PR with the entry + regenerated `GUIDE.md`/`site/`.
+4. Open a pull request with the entry + regenerated `GUIDE.md`/`site/`.
 
 ## Report a dead link
 
@@ -40,6 +40,6 @@ automatically.
 | `status` | `live`, `blocked`, `dead` |
 | `category` | `job-board`, `aggregator`, `company-careers`, `ats`, `resource` |
 | `apply_type` | `quick`, `ats`, `unknown` |
-| `tags` | open-ended; reuse existing (`4-day-week`, `employee-owned`, `cooperative`, ...) |
+| `tags` | open-ended. Reuse existing (`4-day-week`, `employee-owned`, `cooperative`, ...) |
 | `source` | upstream list repo name, or `user` |
 | `checked` | ISO date of last link check |

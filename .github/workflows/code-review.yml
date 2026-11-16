@@ -19,9 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run open-code-review
-        # Advisory gate: posts review comments when an LLM endpoint is
-        # configured, but must never block a merge solely because the
-        # review secrets are absent on a repo.
+        # Advisory gate. It posts review comments when a model endpoint is
+        # configured. It must never block a merge solely because the review
+        # secrets are absent on a repo.
         continue-on-error: true
         uses: alibaba/open-code-review@main
         with:

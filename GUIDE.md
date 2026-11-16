@@ -1,6 +1,6 @@
 # Directory
 
-Generated 2026-10-29 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this file.
+Generated 2026-11-16 by `scripts/build.py`. Edit `data/entries/*.yaml`, not this file.
 
 **386 entries**: 312 live, 19 bot-blocked, 55 dead.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate every entry in data/entries/ against the schema rules.
 
-Pure stdlib + PyYAML. Exits non-zero on any problem. Run in CI and locally.
+Pure stdlib + PyYAML. Exits non-zero on any problem. Run in automated checks and locally.
 """
 
 from __future__ import annotations
