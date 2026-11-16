@@ -2,11 +2,11 @@ name: Dependabot release-age sweep
 
 # A Dependabot pull request may open before its releases are old enough.
 # The open event alone never gives it auto-merge in that case.
-# This daily sweep re-checks every open Dependabot pull request.
+# This twice-weekly sweep re-checks every open Dependabot pull request.
 # Each one then matures into auto-merge on its own.
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 15 * * 1,4'
   workflow_dispatch:
 
 permissions:
